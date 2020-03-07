@@ -1,0 +1,9 @@
+{
+	"routes": [{
+		"src": "/(?<path>.*)",
+		"status": 301,
+		"headers": {
+			"Location": "https://blog.quantumghost.dev/$path"
+		}
+	}]
+}
